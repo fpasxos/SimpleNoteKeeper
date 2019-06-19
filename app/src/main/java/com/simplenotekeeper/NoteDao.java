@@ -1,4 +1,4 @@
-package com.myapplication;
+package com.simplenotekeeper;
 
 import androidx.lifecycle.LiveData;
 import androidx.room.Dao;

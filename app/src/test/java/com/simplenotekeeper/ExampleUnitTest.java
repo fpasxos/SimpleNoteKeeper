@@ -1,4 +1,4 @@
-package com.myapplication;
+package com.simplenotekeeper;
 
 import org.junit.Test;
 

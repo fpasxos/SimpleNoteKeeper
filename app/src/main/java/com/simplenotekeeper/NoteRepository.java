@@ -1,10 +1,9 @@
-package com.myapplication;
+package com.simplenotekeeper;
 
 import android.app.Application;
 import android.os.AsyncTask;
 
 import androidx.lifecycle.LiveData;
-import androidx.room.Delete;
 
 import java.util.List;
 

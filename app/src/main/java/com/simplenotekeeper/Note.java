@@ -1,4 +1,4 @@
-package com.myapplication;
+package com.simplenotekeeper;
 
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;

@@ -1,4 +1,4 @@
-package com.myapplication;
+package com.simplenotekeeper;
 
 import android.content.Context;
 import android.os.AsyncTask;

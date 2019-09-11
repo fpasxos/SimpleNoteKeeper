@@ -1,7 +1,5 @@
 package com.simplenotekeeper;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -11,15 +9,17 @@ import android.widget.EditText;
 import android.widget.NumberPicker;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class AddEditNoteActivity extends AppCompatActivity {
     public static final String EXTRA_ID =
-            "com.myapplication.EXTRA_ID";
+            "com.simplenotekeeper.EXTRA_ID";
     public static final String EXTRA_TITLE =
-            "com.myapplication.EXTRA_TITLE";
+            "com.simplenotekeeper.EXTRA_TITLE";
     public static final String EXTRA_DESCRIPTION =
-            "com.myapplication.EXTRA_DESCRIPTION";
+            "com.simplenotekeeper.EXTRA_DESCRIPTION";
     public static final String EXTRA_PRIORITY =
-            "com.myapplication.EXTRA_PRIORITY";
+            "com.simplenotekeeper.EXTRA_PRIORITY";
 
 
     private EditText editTextTitle;
@@ -96,4 +96,11 @@ public class AddEditNoteActivity extends AppCompatActivity {
 
         }
     }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        this.finish();
+    }
+
 }

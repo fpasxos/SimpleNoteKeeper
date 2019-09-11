@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "672663084019",
+    "firebase_url": "https://architecturecomponents-14ae7.firebaseio.com",
+    "project_id": "architecturecomponents-14ae7",
+    "storage_bucket": "architecturecomponents-14ae7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672663084019:android:8ef86d3869ca457f",
+        "android_client_info": {
+          "package_name": "com.simplenotekeeper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672663084019-6gakrfl2m78eqq6cufar9jqhs510tbd9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simplenotekeeper",
+            "certificate_hash": "6275552efd55dbbdd6ed7e41524bfc2db1e6b6b2"
+          }
+        },
+        {
+          "client_id": "672663084019-uddljr3u8ql1u26jppim2n9vj6q2k3c5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWK9yDuH_QTfXiDfC1DsZcX_dSBb-AeZk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672663084019-uddljr3u8ql1u26jppim2n9vj6q2k3c5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
